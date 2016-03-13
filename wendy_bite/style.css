@@ -1,6 +1,12 @@
 h1{
 	color:black;
 	font-size: 24px;
+	text-decoration: overline;
+}
+
+h2{
+	text-decoration: overline;
+	text-decoration: underline;
 }
 
 body{
@@ -8,4 +14,14 @@ body{
 	font-family:fantasy;
 	font-stretch: condensed;
 	color:rgba(0,0,0,0.5);
+}
+
+figcaption{
+	font-style: times;
+	font-size:12px;
+	color:black;
+}
+
+hr{
+	background-color:black;
 }
