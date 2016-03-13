@@ -2,12 +2,25 @@ h1{
 	color:black;
 	font-size: 24px;
 	text-decoration: overline;
+	text-decoration: underline;
+	text-align: center;
 }
 
 h2{
 	text-decoration: overline;
 	text-decoration: underline;
+	text-align: center;
 }
+
+h4{
+	text-align: center;
+}
+
+figure{
+	text-align: center;
+	
+}
+
 
 body{
 	background-color:rgb(102,205,170);
@@ -20,6 +33,7 @@ figcaption{
 	font-style: times;
 	font-size:12px;
 	color:black;
+	text-align: center;
 }
 
 h3{
@@ -41,4 +55,8 @@ blockquote{
 li{
 	color:black;
 	font-style:bold;
+}
+
+nav{
+	text-align: center;
 }
