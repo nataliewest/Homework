@@ -41,23 +41,90 @@ a {
   /* Set some default styles for anchors (color, text decoration) */
 }
 
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+h2{
+  float:left;
+  text-align: center;
+
+}
+
+.tagline{
+  display:block;
+  text-align: center;
+  padding:30px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight:700;
+}
+
+
 /* Layout (columns, floats, etc.)
    ================================================================ */
-
+.info{
+  width:30%;
+  float:left;
+  padding: 30px;
+}
 
 /* Header
    ================================================================ */
+header{
+  display:block;
+  background: #3c3a3a;
+  height:100px;
+  padding:30px;
+}
 
 
+h1{
+  float:left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
 
+h1, a{
+  color:#d4e1db;
+}
+
+.blurg{
+  float:right;
+  display:block;
+}
+
+.banner{
+  background-image: url("../images/coworking.jpg");
+  background-position: center;
+  background-repeat: none;
+  height:450px;
+
+}
 /* Footer
    ================================================================ */
 
-
+footer{
+  clear:both;
+  padding:10px;
+  background:#3c3a3a;
+  color:#d4e1db;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
 
 /* Navigation
    ================================================================ */
+nav{
+  float:right;
+  text-align: center;
+  padding:20px;
+}
 
+nav, li{
+  display:inline-block;
+}
 
 
 /* Buttons
