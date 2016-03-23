@@ -1,0 +1,57 @@
+<meta property="promotion" content="ENJOY UP TO 60% OFF AT OUR FABULOUS FINDS SALE.">
+
+<style>
+.clear{
+	clear: both;
+}
+
+.html-nav-content-slot{
+	background-color: #ffffff;
+	color: #383838;
+	padding: 20px 0 15px 0;
+	border-bottom: 4px solid #383838;
+}
+
+a.smbcta{
+	text-decoration: none;
+	letter-spacing: .1em;
+	font: 13px 'proxima_novaregular', arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+a.smbcta:hover{
+	color: #858585;
+
+}
+
+.smbcopy{
+	font: 13px 'proxima_novasemibold', arial, sans-serif;
+	letter-spacing: .13em;
+	text-transform:uppercase;
+	color: #383838;
+}
+
+.codecopy{
+	font: 13px 'proxima_novaregular', arial, sans-serif;
+	letter-spacing: .08em;
+	color: #383838;
+	border-right: 1px solid #383838;
+	padding-right: 10px;
+}
+
+</style>
+
+<div class="html-nav-content-slot center content-slot">
+	<div style="width: 1024px; margin: 0 auto; text-algin: center;">
+		<div>
+			<span class="smbcopy" style="margin-right:10px;">ENJOY UP TO 60% OFF AT OUR FABULOUS FINDS SALE.</span>
+			<div style="display: inline-block;">
+				<a class="codecopy" href="$url('Search-Show','cgid','sale-private-sale-1-shop-all')$" class="smbcta popout">SHOP NOW &#9656;</a>
+				<a class="codecopy" id="shipping-info" href="$url('Page-Show','cid','promo-disclaimer')$"  style="margin-left:10px; border-right:none;" >DETAILS &#9656;</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="clear"></div>
