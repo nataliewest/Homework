@@ -72,6 +72,7 @@ h2{
   float:left;
   padding: 30px;
   margin:20px;
+  text-align: center;
 }
 
 /* Header
@@ -131,13 +132,20 @@ nav, li{
   display:inline-block;
 }
 
-.botton{
+.button{
   color:#080808;
   background-color:#d4e1db;
-  padding:20px;
-  box-shadow: 10px 10px 5px #888888;  
+  padding:10px;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 5px;  
+  display:block;
+  text-align: center;
 }
 
+div.button{
+  background-color: #ff0121;
+  color:white;
+}
 
 /* Buttons
    ================================================================ */
