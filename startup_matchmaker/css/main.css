@@ -58,6 +58,10 @@ h2{
   font-family: 'Merriweather', serif;
   font-style: italic;
   font-weight:700;
+  background-color: #d4e1db;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 3px solid #fedb0d;
 }
 
 
@@ -67,6 +71,7 @@ h2{
   width:30%;
   float:left;
   padding: 30px;
+  margin:20px;
 }
 
 /* Header
@@ -85,15 +90,13 @@ h1{
   font-weight: 700;
 }
 
-h1, a{
-  color:#d4e1db;
-}
-
 .blurb{
   float:right;
   border:1px solid black;
   width:400px;
   padding:40px;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: #d4e1db;
 }
 
 .banner{
@@ -129,8 +132,12 @@ nav, li{
 }
 
 .botton{
-  float:center;
+  color:#080808;
+  background-color:#d4e1db;
+  padding:20px;
+  box-shadow: 10px 10px 5px #888888;  
 }
+
 
 /* Buttons
    ================================================================ */
