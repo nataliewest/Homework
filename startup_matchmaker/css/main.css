@@ -162,5 +162,10 @@ div.button{
   background-color: red;
 }
 
+.button:hover{
+  color:red;
+}
+
+
 /* Buttons
    ================================================================ */
