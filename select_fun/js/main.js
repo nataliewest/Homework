@@ -47,11 +47,16 @@ $('#box1').on('click', function(){
 
 // 6. Hide the item with the id #dropdownMenu
 
+$('#dropdownMenu').hide();
+
+
 
 // 7. When the element with the id #dropdownButton is clicked,
 	// a) slide toggle #dropdownMenu
 
-
+$('#dropdownButton').on('click', function(){
+	$('#dropdownMenu').slideToggle(350);
+});
 
 /**
 *
@@ -61,8 +66,12 @@ $('#box1').on('click', function(){
 
 // 8. Hide the item with the id #answer2
 
+$('#answer2').hide();
+
 
 // 9. Show the item with the id #answer1
+
+$('#answer1').show();
 
 
 // 10. When #question2 is clicked:
@@ -70,6 +79,14 @@ $('#box1').on('click', function(){
 	// b) Slide up #answer1
 	// c) Remove the active class from all list items
 	// d) Add the active class to #question2
+
+$('#question2').on('click', function(){
+	$('#answer2').slideDown('slow');
+	$('answer1').slideUp();
+	$('li').removeClass('active');
+	$('#question2').addClass('active');
+});
+
 
 
 // 11. When #question1 is clicked:
