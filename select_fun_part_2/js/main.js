@@ -1,8 +1,15 @@
 // 1.	Slide the header element up when it is clicked on.
 
+$('header').on('click', function(){
+	$('h2').slideUp();
+});
+
 // 2.	Remove the purplebox class from everything.
 
+$('p').removeClass('purplebox');
+
 // 3.	Hide all of the div’s in #row4
+
 
 // 4.	Add a paragraph that says “I have been added” to all boxes with class “add-para” (Hint: you'll need to look up the append() method)
 
