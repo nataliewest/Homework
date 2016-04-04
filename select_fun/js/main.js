@@ -82,7 +82,7 @@ $('#answer1').show();
 
 $('#question2').on('click', function(){
 	$('#answer2').slideDown('slow');
-	$('answer1').slideUp();
+	$('answer1').slideUp(300);
 	$('li').removeClass('active');
 	$('#question2').addClass('active');
 });
@@ -94,3 +94,13 @@ $('#question2').on('click', function(){
 	// b) Slide up #answer2
 	// c) Remove the active class from all list items
 	// d) Add the active class to #question1
+
+$('#question1').on('click', function(){
+	$('#answer1').slideDown('slow');
+	$('answer2').slideUp(300);
+	$('li').removeClass('active');
+	$('#question1').addClass('active');
+});
+
+
+
