@@ -9,7 +9,7 @@ $('header').on('click', function(){
 $('p').removeClass('purplebox');
 
 // 3.	Hide all of the div’s in #row4
-
+$('#row4').hide('div');
 
 // 4.	Add a paragraph that says “I have been added” to all boxes with class “add-para” (Hint: you'll need to look up the append() method)
 
