@@ -83,7 +83,7 @@ $('#answer1').show();
 $('#question2').on('click', function(){
 	$('#answer2').slideDown('slow');
 	$('answer1').slideUp(300);
-	$('ul').removeClass('active');
+	$('li').removeClass('active');
 	$('#question2').addClass('active');
 });
 
@@ -98,7 +98,7 @@ $('#question2').on('click', function(){
 $('#question1').on('click', function(){
 	$('#answer1').slideDown('slow');
 	$('answer2').slideUp(300);
-	$('ul').removeClass('active');
+	$('li').removeClass('active');
 	$('#question1').addClass('active');
 });
 
