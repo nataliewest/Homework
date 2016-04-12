@@ -42,12 +42,14 @@ $('#fahrenheit_to_celsius').on('click', function(){
 		$('#result').html(fahrenheit);
 	});
 
-function 
 
-
+if(result > '55'){
+	$('*').css('background-color', 'red');
+}else if (result < '54'){
+	$('*').css('background-color', 'blue');
+}else{
+	$('*').css('background-color', 'grey');
 }
-
-
 
 
 
