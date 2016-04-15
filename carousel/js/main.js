@@ -21,7 +21,11 @@ $('#next').on('click', function(){
 
 	//Add one to the current position
 
+$('previous').on('click', function(){
+	currentPosition = currentPosition + 1;
+	$('#image-to-vote-on').attr('src', 'images/' + images[currentPosition]);
 
+});
 	
 
 	// var firstImages = images [0]; 
