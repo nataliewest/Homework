@@ -42,32 +42,15 @@ $('#prev').on('click', function(){
 	
 var votes = [0,0,0,0,0,0];	
 
-	// var firstImages = images [0]; 
-
-	// //If currentPosition is the last index
-
-	//  var lastImages = images [images.length-1];
-
-		//Disable #next button
-
-
-
-	//changing the src of "#image_to_vote-on" to image at that index
-
-
-
-//when the user selects the previous button
-
-
-
-
-
-
-
-
-
-
 
 //When the user selects the downvote button
 
+$('#upvote').on('click', function(){
+	currentPosition = currentPosition + 1;
+});
+
 //When the user selects the upvote button
+
+$('#downvote').on('click', function(){
+	currentPosition = currentPosition -1;
+});
